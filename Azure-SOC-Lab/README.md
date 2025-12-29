@@ -5,3 +5,4 @@ Goal: Deploy a SOC environment that collects logs from a live honeypot, ingests 
 
 
 (note, add automated threat hunting with the apis from: https://www.virustotal.com/gui/home/upload and https://www.abuseipdb.com/ )
+
