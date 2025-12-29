@@ -4,4 +4,4 @@
 - Familiarity with CLI tools (Powershell, BASH), Python, and Git.
 - A local machine with VirtualBox installed to deploy the honeypot VM.
 - Free API keys: Sign up for AbuseIPDB (abuseipdb.com) and VirusTotal (virustotal.com)
-- Azure CLI (install from <docs.microsoft.com/en-us/cli/azure/install-azure-cli>, Python 3.x, Git.
+- Azure CLI (install from docs.microsoft.com/en-us/cli/azure/install-azure-cli, Python 3.x, Git.
