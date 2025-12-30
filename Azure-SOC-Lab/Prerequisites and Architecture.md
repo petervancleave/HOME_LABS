@@ -6,6 +6,8 @@
 - Azure CLI (install from docs.microsoft.com/en-us/cli/azure/install-azure-cli, Python 3.x. (AZURE CLI IS OPTIONAL).
 - A public MaxMind GeoLite2-City CSV or similar free geolocation dataset
 
+---
+
 ### Project Architecture:
 
 - Azure Resource Group - container for all resources
@@ -13,6 +15,8 @@
 - Honeypot VM - Windows 10 VM with firewall disabled and ports open to capture attacks.
 - Log Analytics Workspace - central repo for logs from the VM.
 - Sentinel - SIEM linked to the workspace for querying via KQL, alerts, workbooks.
+
+---
 
 ### Data Flow: 
 
@@ -33,6 +37,8 @@ Azure Monitor Agent --> Log Analytics Workspace (Raw Logs)
 Microsoft Sentinel (KQL Queries, Geolocation Join, Attack Map Workbook)
 
 ```
+
+---
 
 ### Basic Outline
 
