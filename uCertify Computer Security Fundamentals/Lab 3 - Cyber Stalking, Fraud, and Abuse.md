@@ -15,7 +15,7 @@ service apache2 stop
 ifconfig eth0 | grep "inet"
 ```
 
-4. Write down the IP address:
+4. Write down the IP address: 10.0.81.83
 
 5. Close the **Terminal** window.
 6. From the left sidebar, click the **Terminal** icon.
@@ -42,7 +42,7 @@ Where,
 
 8. In the **Terminal** window, type the following to select **Google**: `2`
 9. From the left sidebar, click the **Firefox ESR** icon.
-10. Navigate to the following URL `_http://IP address_`
+10. Navigate to the following URL `http://10.0.81.83`
 11. Provide **Email** as `_john12@mail.com_` and **Password** as _`john123456`_ and click **Sign in**.
 12. You will observe the **Google** page.
 13. Minimize the **Firefox ESR** window.
