@@ -9,16 +9,19 @@ To use the `tracert` command, here's what you need to do:
 2. From the desktop, open **Google Chrome**
 
 SS1
+<img width="1333" height="716" alt="Screenshot 2026-02-07 153707" src="https://github.com/user-attachments/assets/4bf25b3d-b38f-4d5b-a9d5-696aa48be618" />
 
 3. In the **Google Chrome** window, in the address bar, type URL as _`google.com`_ and press **Enter**
 
 4. In the bottom left corner of the screen, click the **Start** icon, and from the right pane, open **Windows PowerShell**.
 
 SS2
+<img width="1334" height="710" alt="Screenshot 2026-02-07 153806" src="https://github.com/user-attachments/assets/acb7a279-61ac-4284-a205-2b8c3b6806f1" />
 
 5. In the **Administrator: Windows Powershell** window, execute the following command:
 
 SS3
+<img width="1331" height="702" alt="Screenshot 2026-02-07 154035" src="https://github.com/user-attachments/assets/d9452e9a-0e4a-4b74-ac7a-9b36baae0673" />
 
 6. Close all windows
 
@@ -36,6 +39,7 @@ ping -n 5 -l 1500 www.example.com
 ```
 
 SS4
+<img width="907" height="654" alt="Screenshot 2026-02-07 162443" src="https://github.com/user-attachments/assets/01bcccee-340b-47f9-ad4e-59451da5e7e8" />
 
 ### 2.5.3 Using Routes
 
@@ -51,6 +55,7 @@ route print
 ```
 
 SS5
+<img width="958" height="677" alt="Screenshot 2026-02-07 163844" src="https://github.com/user-attachments/assets/d6d8cf63-f94e-415e-82f4-d7a48d3b82c2" />
 
 4. Type the following command and press **Enter** to add a new route in the IPv4 Route Table:
 
@@ -66,6 +71,7 @@ route print
 ```
 
 SS6
+<img width="712" height="694" alt="Screenshot 2026-02-07 163912" src="https://github.com/user-attachments/assets/e61011e5-cce2-4a66-850c-dd2dc2ec72b9" />
 
 6. Type the following command and press **Enter** to close the **Windows PowerShell** window:
 
@@ -92,6 +98,7 @@ netstat -a | findstr ':23'
 ```
 
 SS7
+<img width="889" height="648" alt="Screenshot 2026-02-07 173653" src="https://github.com/user-attachments/assets/0d52de5e-b5fe-45b4-adbe-cb0a1b90a30f" />
 
 4. Drag the **Windows PowerShell** window to the left side of the screen.
 5. Click the **Start** menu and open another **Windows** **PowerShell** window.
@@ -135,6 +142,7 @@ arp -a
 ```
 
 SS8
+<img width="931" height="686" alt="Screenshot 2026-02-07 175956" src="https://github.com/user-attachments/assets/6069a43c-026c-460e-9f2d-a1cd5df1be09" />
 
 
 ### 2.5.6 Using ipconfig
@@ -150,6 +158,7 @@ ipconfig
 ```
 
 SS9
+<img width="927" height="683" alt="Screenshot 2026-02-07 180145" src="https://github.com/user-attachments/assets/2e4484f7-892f-464e-8a55-3fa4f1508fb7" />
 
 4. Execute the following command to display the full TCP/IP configuration for all adapters:
 
@@ -158,6 +167,7 @@ ipconfig /all
 ```
 
 SS10
+<img width="1338" height="726" alt="Screenshot 2026-02-07 180209" src="https://github.com/user-attachments/assets/04a4a003-770b-46e9-b3f8-7f053561387b" />
 
 5. Execute the following command to display the help file for `ipconfig`:
 
@@ -166,6 +176,7 @@ ipconfig /?
 ```
 
 SS11
+<img width="1327" height="679" alt="Screenshot 2026-02-07 180228" src="https://github.com/user-attachments/assets/e6a08929-264e-405f-b004-ee59a401c4a0" />
 
 6. Execute the following command to close the **Administrator: Windows PowerShell** window:
 ```javascript
@@ -186,3 +197,5 @@ nslookup www.example.com 8.8.8.8
 ```
 
 SS12
+<img width="785" height="574" alt="Screenshot 2026-02-07 180353" src="https://github.com/user-attachments/assets/b49f504f-3000-4c45-ab33-0b857db91480" />
+
